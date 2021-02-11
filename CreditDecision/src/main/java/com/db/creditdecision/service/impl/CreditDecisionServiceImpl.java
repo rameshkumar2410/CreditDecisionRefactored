@@ -30,7 +30,7 @@ import com.db.creditdecision.utils.CreditDecisionUtils;
 @Service
 public class CreditDecisionServiceImpl implements CreditDecisionService {
 
-	private static final Logger LOGGER = Logger.getLogger(CreditDecisionController.class);
+	private static final Logger LOGGER = Logger.getLogger(CreditDecisionServiceImpl.class);
 
 	@Autowired
 	private RestTemplate restTemplate;
